@@ -54,7 +54,6 @@ switch_workspace() {
     local TARGET_WSPACE=$2
     
     if [[ $CURRENT -ne $TARGET_WSPACE ]]; then
-        echo "$TARGET"
         wmctrl -s $(($TARGET_WSPACE - 1)) 
     fi
 }
