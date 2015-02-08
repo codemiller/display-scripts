@@ -1,4 +1,4 @@
-display-scripts
+Fedora Scripts
 ===============
 
-Scripts for changing display in Fedora
+Scripts for use with Fedora
